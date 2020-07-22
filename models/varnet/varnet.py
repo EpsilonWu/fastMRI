@@ -20,8 +20,10 @@ from torch.nn import functional as F
 from common.args import Args
 from common.subsample import create_mask_for_mask_type
 from data import transforms as T
-from models.mri_model import MRIModel
-from models.unet.unet_model import UnetModel
+#from models.mri_model import MRIModel
+#from models.unet.unet_model import UnetModel
+from mri_model import MRIModel
+from unet_model import UnetModel
 
 
 class DataTransform:
